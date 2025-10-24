@@ -56,16 +56,16 @@ section{
     min-height: 100vh;
     display: flex;
     align-items: center;
-    background: url(cover.jpg);
+    background: url(cover.jpeg);
     background-size: cover;
     background-attachment: fixed;
     background-position: center;
-    color: aliceblue;
+    color: rgb(0, 22, 41);
 }
 
 .main h2{
-    font-size: 1.4em;
-    font-weight: 300;
+    font-size: 1.6em;
+    font-weight: 400;
 }
 
 .main h2 span{
@@ -146,6 +146,14 @@ section{
     color: #0a66c2;
     font-size: 8em;
     text-align: center;
+}
+
+.icon img {
+  width: 1em;
+  height: 1em;
+  object-fit: contain;
+  vertical-align: middle;
+  filter: invert(28%) sepia(99%) saturate(1961%) hue-rotate(193deg) brightness(90%) contrast(92%);
 }
 
 .info{
